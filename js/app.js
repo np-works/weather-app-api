@@ -63,7 +63,7 @@ if("geolocation" in navigator){ // The navigator OBJECT contains information abo
 // GET WEATHER FROM API PROVIDER
 function getWeather(latitude,longitude){
     // ?? I guess we are defining the api
-    let api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
+    let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
     
     // console.log(api); - >use this to test whether api is working
      
